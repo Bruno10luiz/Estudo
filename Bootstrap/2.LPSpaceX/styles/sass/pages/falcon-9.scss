@@ -1,0 +1,167 @@
+@import "../others/colors.css";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 200px;
+  padding-left: 0px;
+}
+
+.containerNav {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../others/../../images/falcon9/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-right: 53vh;
+  nav {
+    padding-left: 20vh;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+}
+
+.container2Content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 10vh;
+  h1 {
+    font-size: 10vh;
+  }
+}
+.container3 {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 35vh;
+  h1 {
+    font-size: 10vh;
+  }
+}
+.container4 {
+  background-image: url(../../images/falcon9/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  h5 {
+    display: grid;
+    line-height: 2em;
+    font-size: 22px;
+    padding: 20vh;
+    width: 110vh;
+  }
+}
+
+.container5 {
+  height: 100vh;
+}
+.container00 {
+  height: 100vh;
+  width: 100%;
+  &.carrossel01 {
+    background-image: url(/styles/images/falcon9/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &.carrossel02 {
+    background-image: url(/styles/images/falcon9/04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &.carrossel03 {
+    background-image: url(/styles/images/falcon9/05.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &.carrossel04 {
+    background-image: url(/styles/images/falcon9/06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &.carrossel05 {
+    background-image: url(/styles/images/falcon9/07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &.container06 {
+    background-image: url(/styles/images/falcon9/08.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.container06 {
+  .text {
+    width: 60vh;
+    line-height: 30px;
+    justify-content: left;
+    margin-left: 20vh;
+  }
+  .textMerlin {
+    padding-top: 20vh;
+  }
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.carrosselSlide {
+  img {
+    height: 100vh;
+  }
+}
+.carousselText {
+  background-color: black;
+}
+.containerInfo {
+  height: 90vh;
+  text-align: center;
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  button {
+    height: 8vh;
+  }
+}
+Table {
+  border: 1px;
+  position: relative;
+  opacity: 0.97;
+  background: transparent;
+}
+footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+  }
+}

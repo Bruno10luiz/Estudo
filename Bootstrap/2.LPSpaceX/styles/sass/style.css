@@ -1,0 +1,399 @@
+@import "../others/colors.css";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+@import "../others/colors.css";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+@import "../others/colors.css";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 200px;
+  padding-left: 0px;
+}
+
+.containerNav {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../others/../../images/falcon9/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-right: 53vh;
+}
+.containerNav nav {
+  padding-left: 20vh;
+}
+.containerNav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.container2Content {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vh;
+}
+.container2Content h1 {
+  font-size: 10vh;
+}
+
+.container3 {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 35vh;
+}
+.container3 h1 {
+  font-size: 10vh;
+}
+
+.container4 {
+  background-image: url(../../images/falcon9/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container4 h5 {
+  display: grid;
+  line-height: 2em;
+  font-size: 22px;
+  padding: 20vh;
+  width: 110vh;
+}
+
+.container5 {
+  height: 100vh;
+}
+
+.container00 {
+  height: 100vh;
+  width: 100%;
+}
+.container00.carrossel01 {
+  background-image: url(/styles/images/falcon9/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.carrossel02 {
+  background-image: url(/styles/images/falcon9/04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.carrossel03 {
+  background-image: url(/styles/images/falcon9/05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.carrossel04 {
+  background-image: url(/styles/images/falcon9/06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.carrossel05 {
+  background-image: url(/styles/images/falcon9/07.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container00.container06 {
+  background-image: url(/styles/images/falcon9/08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container06 .text {
+  width: 60vh;
+  line-height: 30px;
+  justify-content: left;
+  margin-left: 20vh;
+}
+.container06 .textMerlin {
+  padding-top: 20vh;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+.containerInfo {
+  height: 90vh;
+  text-align: center;
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+.containerInfo button {
+  height: 8vh;
+}
+
+Table {
+  border: 1px;
+  position: relative;
+  opacity: 0.97;
+  background: transparent;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  width: auto;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+}
+
+.containerNav {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  background-image: url("../others/../../images/home/01.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.containerNav nav {
+  padding-left: 20vh;
+}
+.containerNav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.container2Content {
+  display: grid;
+  padding: 100px;
+}
+.container2Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+.arrowDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vh;
+  height: 8vh;
+  margin-top: 15vh;
+  margin-left: 50vh;
+}
+
+.container3 {
+  width: 100%;
+  padding-left: 300px;
+  background-color: black;
+  height: 80vh;
+  background-image: url("../others/../../images/home/03.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.container3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container3Content {
+  display: grid;
+  width: 80vh;
+  padding: 100px;
+  padding-top: 35vh;
+}
+.container3Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+.container4 {
+  width: 100%;
+  padding-left: 300px;
+  background-color: black;
+  height: 100vh;
+  background-image: url("../others/../../images/home/02.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container4Content {
+  display: grid;
+  width: 100%;
+  padding: 100px;
+  padding-top: 35vh;
+}
+.container4Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+.container5 {
+  width: 100%;
+  padding-left: 300px;
+  background-color: black;
+  height: 100vh;
+  background-image: url("../others/../../images/home/04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container5 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container5Content {
+  display: grid;
+  width: 100%;
+  padding: 100px;
+  padding-top: 35vh;
+}
+.container5Content h1 {
+  width: 70vh;
+  padding-right: 20vh;
+}
+.container5Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 200px;
+  padding-left: 0px;
+}
+
+.containerNav {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../others/../../images/humanFlight/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-right: 53vh;
+}
+.containerNav nav {
+  padding-left: 20vh;
+}
+.containerNav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.container2Content {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-left: 25vh;
+  padding-top: 10vh;
+}
+.container2Content h1 {
+  font-size: 13vh;
+}
+.container2Content p {
+  font-size: 3vh;
+}
+.container2Content .arrowDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17vh;
+  height: 10vh;
+  margin-top: 15vh;
+  margin-left: 55vh;
+}
+
+.infoText {
+  width: 100%;
+  height: 22vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.containerInfo {
+  height: 90vh;
+  text-align: center;
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+.containerInfo button {
+  height: 8vh;
+}/*# sourceMappingURL=style.css.map */

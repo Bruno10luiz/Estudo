@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-image: url(/images/backgroundLp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+  }
+
+.container1{
+    
+    color: white;
+    background-color: $background-color;
+  width: 450px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.topLogo{
+    width: 180px;
+}
+.footer{
+    color: white;
+}
+
+.btn{
+    background-color: $btn-color;
+    color: purple;
+}

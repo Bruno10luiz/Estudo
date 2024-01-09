@@ -1,0 +1,96 @@
+@import "../others/colors.css";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 200px;
+  padding-left: 0px;
+}
+
+.containerNav {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../others/../../images/humanFlight/01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-right: 53vh;
+}
+.containerNav nav {
+  padding-left: 20vh;
+}
+.containerNav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.container2Content {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-left: 25vh;
+  padding-top: 10vh;
+}
+.container2Content h1 {
+  font-size: 13vh;
+}
+.container2Content p {
+  font-size: 3vh;
+}
+.container2Content .arrowDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17vh;
+  height: 10vh;
+  margin-top: 15vh;
+  margin-left: 55vh;
+}
+
+.infoText {
+  width: 100%;
+  height: 22vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 20px;
+}
+.infoText a {
+  text-decoration: none;
+  color: white;
+}
+
+.containerInfo {
+  height: 90vh;
+  text-align: center;
+  padding-top: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+.containerInfo button {
+  height: 8vh;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}/*# sourceMappingURL=human-space.css.map */

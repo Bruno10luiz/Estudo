@@ -1,0 +1,151 @@
+@import "../others/colors.css";
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  width: auto;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+}
+
+.containerNav {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  background-image: url("../others/../../images/home/01.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.containerNav nav {
+  padding-left: 20vh;
+}
+.containerNav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.container2Content {
+  display: grid;
+  padding: 100px;
+}
+.container2Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+.arrowDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vh;
+  height: 8vh;
+  margin-top: 15vh;
+  margin-left: 50vh;
+}
+
+.container3 {
+  width: 100%;
+  padding-left: 300px;
+  background-color: black;
+  height: 80vh;
+  background-image: url("../others/../../images/home/03.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.container3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container3Content {
+  display: grid;
+  width: 80vh;
+  padding: 100px;
+  padding-top: 35vh;
+}
+.container3Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+.container4 {
+  width: 100%;
+  padding-left: 300px;
+  background-color: black;
+  height: 100vh;
+  background-image: url("../others/../../images/home/02.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container4Content {
+  display: grid;
+  width: 100%;
+  padding: 100px;
+  padding-top: 35vh;
+}
+.container4Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+.container5 {
+  width: 100%;
+  padding-left: 300px;
+  background-color: black;
+  height: 100vh;
+  background-image: url("../others/../../images/home/04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container5 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container5Content {
+  display: grid;
+  width: 100%;
+  padding: 100px;
+  padding-top: 35vh;
+}
+.container5Content h1 {
+  width: 70vh;
+  padding-right: 20vh;
+}
+.container5Content .btn {
+  margin: 30px;
+  padding: 20px;
+  width: 20vh;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}/*# sourceMappingURL=home.css.map */
